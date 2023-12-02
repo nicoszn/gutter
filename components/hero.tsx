@@ -33,7 +33,7 @@ export default function Hero() {
         </Link>
         <PageHeaderHeading
         className="bg-clip-text text-transparent bg-gradient-to-l from-white to- gray-500  indent-4"
-        >Trade crypto 24/7.</PageHeaderHeading>
+        >Buy & sell cryptocurrencies</PageHeaderHeading>
         <PageHeaderDescription>
           Powerfuly designed for quick trade.
         </PageHeaderDescription>
