@@ -31,10 +31,10 @@ export function HomeMainNav() {
           Home
         </Link>
         <Link
-          href="/home"
+          href="/discovery"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname === "/home" ? "text-foreground" : "text-foreground/60"
+            pathname === "/discovery" ? "text-foreground" : "text-foreground/60"
           )}
         >
          Landing

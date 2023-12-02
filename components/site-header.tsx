@@ -38,7 +38,7 @@ export function SiteHeader() {
                 )}
               >
                 <Icons.logo className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
+                <span className="sr-only">Logo</span>
               </div>
             </Link>
            

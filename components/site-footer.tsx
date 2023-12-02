@@ -11,7 +11,7 @@ export function SiteFooter() {
           <div
             className="font-medium underline underline-offset-4"
           >
-            Nickszn
+            Gutter Dao
           </div>
         </p>
       </div>
