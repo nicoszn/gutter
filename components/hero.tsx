@@ -32,7 +32,7 @@ export default function Hero() {
           <ArrowRightIcon className="ml-1 h-4 w-4" />
         </Link>
         <PageHeaderHeading
-        className="bg-clip-text text-transparent bg-gradient-to-l from-white to- gray-500  indent-4"
+        className="bg-clip-text text-transparent bg-gradient-to-l from-white to-gray-500  mx-auto"
         >Buy & sell cryptocurrencies</PageHeaderHeading>
         <PageHeaderDescription>
           Powerfuly designed for quick trade.
@@ -69,27 +69,27 @@ export default function Hero() {
 
               <div className="w-full max-w-full space-y-4 mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  <div className="flex flex-col items-center space-y-2 p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                    <div className="p-2 bg-opacity-50 rounded-full">
-                      <Icons.smartphone className=" h-6 w-6 mb-2 opacity-75" />
+                  <div className="flex flex-col items-center space-y-2 p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
+                    <div className="p-2  rounded-full">
+                      <Icons.smartphone className=" h-6 w-6 mb-2 " />
                     </div>
                     <h2 className="text-xl font-bold ">Simplicity</h2>
                     <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
                       Our platform is designed to be simple and easy to use.
                     </p>
                   </div>
-                  <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                    <div className="p-2 bg-opacity-50 rounded-full">
-                      <Icons.fileLineChart className=" h-6 w-6 mb-2 opacity-75" />
+                  <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
+                    <div className="p-2  rounded-full">
+                      <Icons.fileLineChart className=" h-6 w-6 mb-2 " />
                     </div>
                     <h2 className="text-xl font-bold ">No limits</h2>
                     <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
                       No limits on trading, upto a maximum of $1000 per day.
                     </p>
                   </div>
-                  <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                    <div className="p-2 bg-opacity-50 rounded-full">
-                      <Icons.help className=" h-6 w-6 mb-2 opacity-75" />
+                  <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
+                    <div className="p-2 rounded-full">
+                      <Icons.help className=" h-6 w-6 mb-2 " />
                     </div>
                     <h2 className="`mb-3 text-2xl font-semibold ">
                       Support
