@@ -1,6 +1,8 @@
 
 'use client'
 import * as React from "react"
+import { toast } from "./ui/use-toast"
+
 
 import {   PageHeader,
     PageHeaderDescription,
@@ -17,39 +19,41 @@ export default function Hero() {
       <section className="w-full py-12 md:py-24">
         <div className="container px-4 md:px-6 space-y-8">
 
-        <PageHeader className="">
+        <PageHeader className="space-y-4">
         <Link
-          href="/docs/changelog"
+          href="/"
           className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium"
         >
           🎉 <Separator className="mx-2 h-4" orientation="vertical" />{" "}
-          <span className="sm:hidden">Gutter, a RELIABLE TRADETECH and more.</span>
+          <span className="sm:hidden">Gutter, a new TradeFi and more.</span>
           <span className="hidden sm:inline">
             Introducing Gutter Dao, a RELIABLE TRADETECH and more.
           </span>
           <ArrowRightIcon className="ml-1 h-4 w-4" />
         </Link>
-        <PageHeaderHeading>Buy & Sell cryptocurrencies .</PageHeaderHeading>
+        <PageHeaderHeading
+        className="bg-clip-text text-transparent bg-gradient-to-l from-white to- gray-500  indent-4"
+        >Trade crypto 24/7.</PageHeaderHeading>
         <PageHeaderDescription>
           Powerfuly designed for quick trade.
         </PageHeaderDescription>
-        {/* <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
+        <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
          <Button
-         onClick={() => toast({ title: "Coming Soon" })} className="w-full md:w-auto"
+         onClick={() => toast({ title: "Coming Soon", description: "All trade history will be available" })} className="w-full md:w-auto"
          >
-         Get Started
+         History
          </Button>
             
           
           <Button
             variant="outline"
             className="w-full md:w-auto"
-            onClick={() => toast({ title: "Coming Soon" })}
+            onClick={() => toast({ title: "Coming Soon" , description: "Gutter trade platform currently in development"})}
           >
-            <Icons.settings className="mr-2 h-4 w-4" />
-            Login
+            <Icons.construction className="mr-2 h-4 w-4" />
+            Enter
           </Button>
-        </div> */}
+        </div>
       </PageHeader>
 
           <div className="grid gap-6 items-center">
@@ -67,34 +71,31 @@ export default function Hero() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   <div className="flex flex-col items-center space-y-2 p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <div className="p-2 bg-opacity-50 rounded-full">
-                      <IconCustomization className=" h-6 w-6 mb-2 opacity-75" />
+                      <Icons.smartphone className=" h-6 w-6 mb-2 opacity-75" />
                     </div>
-                    <h2 className="text-xl font-bold ">Advanced Customization</h2>
-                    <p className="">
-                      With Advanced Customization, you can personalize your portfolio.
+                    <h2 className="text-xl font-bold ">Simplicity</h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                      Our platform is designed to be simple and easy to use.
                     </p>
                   </div>
                   <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <div className="p-2 bg-opacity-50 rounded-full">
-                      <IconSearch className=" h-6 w-6 mb-2 opacity-75" />
+                      <Icons.fileLineChart className=" h-6 w-6 mb-2 opacity-75" />
                     </div>
-                    <h2 className="text-xl font-bold ">Powerful Search</h2>
-                    <p className="">
-                      Our Powerful Search feature allows you to find any assets, bonds, or crypto in seconds.
+                    <h2 className="text-xl font-bold ">No limits</h2>
+                    <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                      No limits on trading, upto a maximum of $1000 per day.
                     </p>
                   </div>
                   <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <div className="p-2 bg-opacity-50 rounded-full">
-                      <IconSecurity className=" h-6 w-6 mb-2 opacity-75" />
+                      <Icons.help className=" h-6 w-6 mb-2 opacity-75" />
                     </div>
                     <h2 className="`mb-3 text-2xl font-semibold ">
-                      Reliable `````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````Security{' '}
-                      <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+                      Support
                       </h2>
                     <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                      With Reliable Security, your data is always safe and protected.
+                      Find answers to your questions and get support.
                     </p>
                   </div>
                 

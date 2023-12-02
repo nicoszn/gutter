@@ -27,6 +27,8 @@ import {
   CheckIcon,
   SquareDot,
   CalendarClockIcon,
+  MessageCircleIcon, MessageSquareDashedIcon, MessageSquarePlusIcon, ConstructionIcon,
+  HelpCircleIcon, FileLineChartIcon, BarChartBigIcon, SmartphoneIcon,
   type  LucideIcon,
   Laptop
 } from "lucide-react"
@@ -62,6 +64,15 @@ export const Icons = {
   plusCircle: PlusCircleIcon,
   check: CheckIcon,
   calendar: CalendarClockIcon,
+  messageCircle: MessageCircleIcon,
+  messageSquareDashed: MessageSquareDashedIcon,
+  messageSquarePlus: MessageSquarePlusIcon,
+  construction: ConstructionIcon,
+  help: HelpCircleIcon,
+  fileLineChart: FileLineChartIcon,
+  barChartBig: BarChartBigIcon,
+  smartphone: SmartphoneIcon,
+
 
   btc: (props : LucideProps) => (
   <svg viewBox="0 0 4091.27 4091.73" {...props}>

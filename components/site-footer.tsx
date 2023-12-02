@@ -11,7 +11,7 @@ export function SiteFooter() {
           <div
             className="font-medium underline underline-offset-4"
           >
-            spiral-tech
+            Nickszn
           </div>
         </p>
       </div>
