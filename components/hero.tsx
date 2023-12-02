@@ -63,7 +63,7 @@ export default function Hero() {
                   Discover Our Unique Features
                 </h1>
                 <p className="max-w-[600px] md:text-xl  mx-auto">
-                  Our features are designed to enhance your portfolio and streamline your financial journey.
+                  Our features are designed to enhance your trade experience.
                 </p>
               </div>
 
