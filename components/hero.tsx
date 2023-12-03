@@ -81,7 +81,7 @@ export default function Hero() {
           <Link 
            target="_blank"
            rel="noreferrer"
-           href={"https://gutterapp.vercel.app/"}>
+           href={"https://gutterapp.vercel.app/discover"}>
           <div className="flex flex-col items-center space-y-2 p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
             <div className="p-2  rounded-full">
               <Icons.smartphone className=" h-6 w-6 mb-2 " />
