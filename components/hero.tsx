@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
           <Link
             href='/discover'
-            className={cn(buttonVariants({ variant: "outline" }))}
+            className={cn(buttonVariants())}
           >
 <Icons.construction className="mr-2 h-4 w-4 lg:h-6 lg:w-6" />
             Discover
