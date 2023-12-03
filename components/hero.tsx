@@ -24,9 +24,9 @@ export default function Hero() {
           className="inline-flex items-center rounded-lg bg-muted px-3 py-1 text-sm font-medium"
         >
           🎉 <Separator className="mx-2 h-4" orientation="vertical" />{" "}
-          <span className="sm:hidden">Gutter, a WEB SWISS KNIFE and more.</span>
+          <span className="sm:hidden">Gutter Dao. Management and more.</span>
           <span className="hidden sm:inline">
-            Introducing Gutter Dao, a RELIABLE WEB SWISS KNIFE and more.
+            Introducing Gutter Dao, the next generation of web management tools.
           </span>
           <ArrowRightIcon className="ml-1 h-4 w-4" />
         </Link>
@@ -37,13 +37,13 @@ export default function Hero() {
           Multi-tenant web management tools. Fast, secure light weight tools web management tools accessable and organized for easy operations.
         </PageHeaderDescription>
         <div className="flex w-full items-center space-x-4 pb-8 pt-4 md:pb-10">
-         <Button
-         onClick={() => toast({ title: "Coming Soon", description: "Discover all features." })} className="w-full md:w-auto lg:w-[200px]"
-         >
-         Discover
-         </Button>
-            
-          
+          <Link
+            href='/discover'
+            className={cn(buttonVariants({ variant: "outline" }))}
+          >
+<Icons.construction className="mr-2 h-4 w-4 lg:h-6 lg:w-6" />
+            Discover
+          </Link>
           <Button
             variant="outline"
             className="w-full md:w-auto lg:w-[200px]"
@@ -52,6 +52,10 @@ export default function Hero() {
             <Icons.construction className="mr-2 h-4 w-4 lg:h-6 lg:w-6" />
             Contact us
           </Button>
+          {/* <Link href="/docs" className={cn("w-full md:w-auto lg:w-[200px]", buttonVariants())}>
+            Get Started
+          </Link> */}
+          
         </div>
       </PageHeader>
      
@@ -62,37 +66,42 @@ export default function Hero() {
 
   return (
     <div className="grid gap-6 items-center">
-    <div className="flex flex-col justify-center space-y-8 text-center">
-      <div className="space-y-2">
+    <div className="flex flex-col justify-center space-y-8 lg:space-y-16 text-center">
+      <div className="space-y-2 lg:space-y-6">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
-          Discover Our Unique Features
+          Discover Our Unique Products
         </h1>
         <p className="max-w-[600px] md:text-xl  mx-auto">
-          Our features are designed to enhance your trade experience.
+          Our Product are designed for ease of use.
         </p>
       </div>
 
       <div className="w-full max-w-full space-y-4 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <Link 
+           target="_blank"
+           rel="noreferrer"
+           href={"https://gutterapp.vercel.app/"}>
           <div className="flex flex-col items-center space-y-2 p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
             <div className="p-2  rounded-full">
               <Icons.smartphone className=" h-6 w-6 mb-2 " />
             </div>
-            <h2 className="text-xl font-bold ">Simplicity</h2>
+            <h2 className="text-xl font-bold ">Trading App</h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              Our platform is designed to be simple and easy to use.
+              Our trading app is one of the best out there by far. Combining edge tech and users experience.
             </p>
           </div>
-          <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
+          </Link>
+          <div onClick={() => toast({ title: "Coming Soon"})} className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
             <div className="p-2  rounded-full">
               <Icons.fileLineChart className=" h-6 w-6 mb-2 " />
             </div>
-            <h2 className="text-xl font-bold ">No limits</h2>
+            <h2 className="text-xl font-bold ">Doamins</h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              No limits on trading, upto a maximum of $1000 per day.
+             Manage your domains accreasingly. Buy,sell, verify, troubleshoot and more.
             </p>
           </div>
-          <div className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
+          <div onClick={() => toast({ title: "Coming Soon"})} className="flex flex-col items-center space-y-2  p-4 group rounded-lg border border-transparent px-5 py-4 transition-colors border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800/10">
             <div className="p-2 rounded-full">
               <Icons.help className=" h-6 w-6 mb-2 " />
             </div>

@@ -31,13 +31,13 @@ export function HomeMainNav() {
           Home
         </Link>
         <Link
-          href="/discovery"
+          href="/discover"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname === "/discovery" ? "text-foreground" : "text-foreground/60"
+            pathname === "/discover" ? "text-foreground" : "text-foreground/60"
           )}
         >
-         Landing
+         Discover
         </Link>
       </nav>
     </div>

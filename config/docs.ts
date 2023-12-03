@@ -46,8 +46,8 @@ export const docsConfig: DocsConfig = {
       title: "Getting Started",
       items: [
         {
-          title: "Discovery",
-          href: "/discovery",
+          title: "Discover",
+          href: "/discover",
           items: [],
         },
       ],

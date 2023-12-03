@@ -34,7 +34,7 @@ export function SiteHeader() {
                   buttonVariants({
                     variant: "ghost",
                   }),
-                  "w-9 px-0"
+                  "w-9 px-0 lg:hidden"
                 )}
               >
                 <Icons.logo className="h-4 w-4" />
