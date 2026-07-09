@@ -1,3 +1,22 @@
+hmem-engine/
+├── package.json
+├── tsconfig.json
+└── src/
+    ├── types/
+    │   └── hmem.types.ts
+    ├── tiers/
+    │   ├── Tier1Scratchpad.ts
+    │   ├── Tier2IndexCache.ts
+    │   └── Tier3SemanticGraph.ts
+    ├── engine/
+    │   ├── MemoryRouter.ts
+    │   └── Orchestrator.ts
+    └── index.ts
+
+------
+
+
+
 export interface TokenBlock {
     id: string;
     timestamp: number;
